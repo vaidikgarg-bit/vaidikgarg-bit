@@ -2,6 +2,7 @@
 """Render README.md from README.template.md using live GitHub data.
 
 Placeholders in the template:
+  {{ MERGED_COUNT }}        "N merged upstream PRs", counted on repos owned by someone else
   {{ OPEN_SOURCE_PRS }}     pull requests to repos owned by someone else, with status
   {{ OPEN_SOURCE_ISSUES }}  issues opened on repos owned by someone else
   {{ PROJECTS }}            my own public, non-fork repositories
@@ -109,6 +110,12 @@ def render_prs():
     return "\n".join(rows)
 
 
+def render_merged_count():
+    q = f"type:pr is:merged author:{USER} -user:{USER} is:public"
+    count = get("/search/issues", {"q": q, "per_page": 1})["total_count"]
+    return f"{count} merged upstream PR{'' if count == 1 else 's'}"
+
+
 def render_issues():
     items = search("type:issue", MAX_ISSUES)
     if not items:
@@ -139,6 +146,7 @@ def render_projects():
 def main():
     text = TEMPLATE.read_text(encoding="utf-8")
     sections = {
+        "{{ MERGED_COUNT }}": render_merged_count,
         "{{ OPEN_SOURCE_PRS }}": render_prs,
         "{{ OPEN_SOURCE_ISSUES }}": render_issues,
         "{{ PROJECTS }}": render_projects,

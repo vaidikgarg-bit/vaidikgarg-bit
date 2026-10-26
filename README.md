@@ -1,4 +1,4 @@
-                                                      # Vaidik Garg
+                                                       Vaidik Garg
 
                                  Student developer · Java server work & full-stack web
 

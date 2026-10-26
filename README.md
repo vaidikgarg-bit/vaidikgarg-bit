@@ -1,6 +1,7 @@
-                                                       Vaidik Garg
-
-                                 Student developer · Java server work & full-stack web
+<p align="center">
+  <b>Vaidik Garg</b><br>
+  Student developer · Java server work &amp; full-stack web
+</p>
 
 I'm a student who builds full-stack web projects and sends fixes to open source projects. 2 merged upstream PRs so far, in Apache HugeGraph and Apache Fineract.
 

@@ -1,3 +1,7 @@
+# Vaidik Garg
+
+Student developer · Java server work & full-stack web
+
 I'm a student who builds full-stack web projects and sends fixes to open source projects. {{ MERGED_COUNT }} so far, in Apache HugeGraph and Apache Fineract.
 
 On Apache HugeGraph I work on the store layer: giving RocksDB's `BackendColumn` a hash code that matches its byte-based `equals()`, so intersection and union iterators stop treating identical rows as different, and stopping `ProjectionStage` from clearing a column that was still held as a dedup key, which let duplicate rows through on id-only scans. I reported that second bug as an issue before fixing it.

@@ -1,0 +1,24 @@
+## Hi, I'm Vaidik
+
+I'm a student who likes building things end to end: web apps, the APIs behind them, and the
+databases underneath. Lately I've been reading other people's code too, mostly Apache projects,
+and sending fixes when I find something broken. Mobile apps are next on the list.
+
+### Open-source pull requests
+
+| Pull request | Repository | Status |
+| --- | --- | --- |
+| [fix(store): stop ProjectionStage clearing dedup keys in place](https://github.com/apache/hugegraph/pull/3408) | [apache/hugegraph](https://github.com/apache/hugegraph) | ![approved](https://img.shields.io/badge/approved-1a7f37?style=flat-square) |
+| [fix(store): hash BackendColumn by its name and value](https://github.com/apache/hugegraph/pull/3404) | [apache/hugegraph](https://github.com/apache/hugegraph) | ![merged](https://img.shields.io/badge/merged-8250df?style=flat-square) |
+| [fix(clients): show activation and submitted dates without a time or zone](https://github.com/apache/fineract-backoffice-ui/pull/830) | [apache/fineract-backoffice-ui](https://github.com/apache/fineract-backoffice-ui) | ![merged](https://img.shields.io/badge/merged-8250df?style=flat-square) |
+
+### Issues I've reported
+
+- [[Bug] Store limit dedup emits duplicates on id-only scans because ProjectionStage mutates the stored column](https://github.com/apache/hugegraph/issues/3407) in `apache/hugegraph` (open)
+
+### My projects
+
+- [study-vault](https://github.com/vaidikgarg-bit/study-vault): 🎓 Campus Course Notes Hub & AI-powered Quiz and 3D Flashcard Study Engine built with FastAPI, SQLite, and Tailwind CSS. `Python`
+
+<sub>The lists above are rebuilt from the GitHub API every six hours by
+[a small script](scripts/update_readme.py).</sub>

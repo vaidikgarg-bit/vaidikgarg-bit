@@ -23,6 +23,7 @@ Outside upstream work I'm building Study Vault, a course notes hub with generate
 
 ### Issues I've reported
 
+- [[Bug] Store dedup iterators drop rows at query batch boundaries](https://github.com/apache/hugegraph/issues/3415) in `apache/hugegraph` (open)
 - [[Bug] Store limit dedup emits duplicates on id-only scans because ProjectionStage mutates the stored column](https://github.com/apache/hugegraph/issues/3407) in `apache/hugegraph` (closed)
 
 ### My projects

@@ -9,9 +9,9 @@ Student developer · Java server work &amp; full-stack web
 
 I'm a student who builds full-stack web projects and sends fixes to open source projects. **11 merged upstream PRs** so far, in Apache HugeGraph and Apache Fineract.
 
-On [Apache HugeGraph](https://github.com/apache/hugegraph) I work on the store layer: giving RocksDB's `BackendColumn` a hash code that matches its byte-based `equals()`, so intersection and union iterators stop treating identical rows as different, and stopping `ProjectionStage` from clearing a column that was still held as a dedup key, which let duplicate rows through on id-only scans. I reported that second bug as an issue before fixing it.
+On [Apache HugeGraph](https://github.com/apache/hugegraph) I work on the Store module's query iterators: hashing `BackendColumn` by its bytes so union and intersection match identical rows, keeping limit-dedup keys intact through id-only projections, holding on to pending rows in the dedup iterators across query batches, and closing `MultiListIterator`'s sub-iterators when a query is cancelled early or a close fails. I reported most of these bugs as issues before fixing them.
 
-On the [Apache Fineract back-office UI](https://github.com/apache/fineract-backoffice-ui) (Angular) I fixed client records that showed date-only fields as midnight timestamps in the viewer's time zone.
+On the [Apache Fineract back-office UI](https://github.com/apache/fineract-backoffice-ui) (Angular) I build and fix admin screens: editing scheduler jobs, configuring the SMS gateway, approving share dividends, and getting dates right in client records and the birth-date picker.
 
 Outside upstream work I'm building [Study Vault](https://github.com/vaidikgarg-bit/study-vault), a course notes hub with generated quizzes and flashcards, on FastAPI and SQLite with a Tailwind front end.
 

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="204" viewBox="0 0 400 204">
+<style>
+  .title { font: 600 18px 'Segoe UI', -apple-system, Ubuntu, sans-serif; fill: #58a6ff; }
+  .label { font: 400 14px 'Segoe UI', -apple-system, Ubuntu, sans-serif; fill: #c9d1d9; }
+  .value { font: 600 14px 'Segoe UI', -apple-system, Ubuntu, sans-serif; fill: #f0f6fc; }
+</style>
+<rect x="0.5" y="0.5" width="399" height="203" rx="6" fill="#0d1117" stroke="#30363d"/>
+<text x="25" y="35" class="title">Upstream contributions</text>
+<text x="25" y="70" class="label">PRs merged</text>
+<text x="375" y="70" class="value" text-anchor="end">11</text>
+<text x="25" y="98" class="label">PRs open</text>
+<text x="375" y="98" class="value" text-anchor="end">0</text>
+<text x="25" y="126" class="label">Projects contributed to</text>
+<text x="375" y="126" class="value" text-anchor="end">2</text>
+<text x="25" y="154" class="label">Issues reported</text>
+<text x="375" y="154" class="value" text-anchor="end">5</text>
+<text x="25" y="182" class="label">Contributions in the last year</text>
+<text x="375" y="182" class="value" text-anchor="end">201</text>
+</svg>

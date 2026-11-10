@@ -7,13 +7,13 @@
 <rect x="0.5" y="0.5" width="399" height="203" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="25" y="35" class="title">Upstream contributions</text>
 <text x="25" y="70" class="label">PRs merged</text>
-<text x="375" y="70" class="value" text-anchor="end">12</text>
+<text x="375" y="70" class="value" text-anchor="end">15</text>
 <text x="25" y="98" class="label">PRs open</text>
 <text x="375" y="98" class="value" text-anchor="end">0</text>
 <text x="25" y="126" class="label">Projects contributed to</text>
-<text x="375" y="126" class="value" text-anchor="end">2</text>
+<text x="375" y="126" class="value" text-anchor="end">3</text>
 <text x="25" y="154" class="label">Issues reported</text>
 <text x="375" y="154" class="value" text-anchor="end">5</text>
 <text x="25" y="182" class="label">Contributions in the last year</text>
-<text x="375" y="182" class="value" text-anchor="end">207</text>
+<text x="375" y="182" class="value" text-anchor="end">216</text>
 </svg>

@@ -7,7 +7,7 @@ Student developer · Java server work &amp; full-stack web
 
 </div>
 
-I'm a student who builds full-stack web projects and sends fixes to open source projects. **12 merged upstream PRs** so far, in Apache HugeGraph and Apache Fineract.
+I'm a student who builds full-stack web projects and sends fixes to open source projects. **15 merged upstream PRs** so far, in Apache HugeGraph and Apache Fineract.
 
 On [Apache HugeGraph](https://github.com/apache/hugegraph) I work on the Store module's query iterators: hashing `BackendColumn` by its bytes so union and intersection match identical rows, keeping limit-dedup keys intact through id-only projections, holding on to pending rows in the dedup iterators across query batches, and closing `MultiListIterator`'s sub-iterators when a query is cancelled early or a close fails. I reported most of these bugs as issues before fixing them.
 
@@ -21,6 +21,7 @@ Outside upstream work I'm building [Study Vault](https://github.com/vaidikgarg-b
 | --- | --- | --- |
 | [Apache HugeGraph](https://github.com/pulls?q=is%3Apr+author%3Avaidikgarg-bit+repo%3Aapache%2Fhugegraph+repo%3Aapache%2Fhugegraph-doc) | 6 merged · 0 open | Store module fixes: row hashing and dedup in scan iterators, id-only projections, MultiListIterator cleanup, and the tests around them.<br><sub>Latest: <a href="https://github.com/apache/hugegraph/pull/3445">#3445</a> — fix(store): harden MultiListIterator close and next</sub> |
 | [Apache Fineract back-office UI](https://github.com/pulls?q=is%3Apr+author%3Avaidikgarg-bit+repo%3Aapache%2Ffineract-backoffice-ui) | 6 merged · 0 open | Angular screens: client dates, scheduler job editing, SMS gateway setup, share dividend approval.<br><sub>Latest: <a href="https://github.com/apache/fineract-backoffice-ui/pull/867">#867</a> — feat(audit): open audit entries and filter the trail on the server</sub> |
+| [arshilkxwork/Hacktober-Fest](https://github.com/pulls?q=is%3Apr+author%3Avaidikgarg-bit+repo%3Aarshilkxwork%2FHacktober-Fest) | 3 merged · 0 open | <sub>Latest: <a href="https://github.com/arshilkxwork/Hacktober-Fest/pull/12">#12</a> — Add the decision explorer and the decision page with its timeline</sub> |
 
 ## Open PRs
 
